@@ -38,4 +38,5 @@ Neurosynth link to the files used: https://neurosynth.org/analyses/terms/social%
    - Place the downloaded files (will be `nii.gz` format) into the same folder as the Jupyter notebook to ensure the code can locate the sata files
   
 3. Run the notebook
-   - If you wish to choose a different topic, make sure that you alter the `topic_name` and `functional_file_name` to ensure the figures plot the correct data and are titled correctly. If you do not alter these, the code is set to run the analysis for social interaction.
+   - Make sure to run each cell in sequential order
+   - If you wish to choose a different topic, make sure that you alter the `topic_name` and `functional_file_name` to ensure the figures plot the correct data and are titled correctly. If you do not alter these, the code is set to run the analysis for social interaction. Additionally the cut coordinates for optimal visualisation for social interaction; If you choose a different topic, you may comment out that line so that the cut coordinates will be generated automatically for the topic / data you are analysing.
