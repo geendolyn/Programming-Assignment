@@ -22,6 +22,9 @@ Neurosynth link to the files used: https://neurosynth.org/analyses/terms/social%
 4. Pull request:
    - Evidence of a pull request in the form of a screenshot of my submitted comments
   
+5. README file:
+   - A `README.md` file describing the project (this current file)
+  
 ## Python packages used
    - `os` and `glob` for automatic file localisation
    - `matplotlib` for data visualisation and plotting figures
